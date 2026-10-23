@@ -1,0 +1,39 @@
+{
+  "user": "bsank",
+  "rank": "Guardian of Apps",
+  "hunter_level": 5,
+  "total_xp": 3450,
+  "streak_days": 1,
+  "badges": [
+    {
+      "id": "tpp_architect",
+      "name": "Target Product Profile Architect",
+      "description": "Architected an end-to-end multi-agent kinase optimization pipeline",
+      "earned_at": "2026-10-23T23:15:00Z"
+    },
+    {
+      "id": "speed_demon",
+      "name": "Speed Demon",
+      "description": "Diagnosed & patched test suite with 100% pass rate in single run",
+      "earned_at": "2026-10-23T23:15:00Z"
+    },
+    {
+      "id": "visual_maestro",
+      "name": "Visual Maestro",
+      "description": "Engineered standalone 4-quadrant executive graphics and interactive portal",
+      "earned_at": "2026-10-23T23:15:00Z"
+    },
+    {
+      "id": "guardian_of_apps",
+      "name": "Guardian of Apps",
+      "description": "Built resilient safety gates preventing liver toxicity liabilities",
+      "earned_at": "2026-10-23T23:15:00Z"
+    }
+  ],
+  "recent_achievements": [
+    "+1000 XP: Automated 4-tier JAK2 kinase screening cascade with Google ADK",
+    "+500 XP: Integrated Harrington-Derringer MPO continuous desirability functions",
+    "+400 XP: Deployed standalone zero-setup HTML executive dashboard",
+    "+350 XP: Authored comprehensive documentation suite (IT, RA, Architecture)"
+  ]
+}

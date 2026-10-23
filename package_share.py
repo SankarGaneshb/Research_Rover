@@ -262,6 +262,13 @@ with zipfile.ZipFile(zip_out, "w", zipfile.ZIP_DEFLATED) as zf:
     zf.write(ROVER_DIR / "requirements.txt", arcname="requirements.txt")
     if (ROVER_DIR / "pyproject.toml").exists():
         zf.write(ROVER_DIR / "pyproject.toml", arcname="pyproject.toml")
+    # Add docs/ directory
+    for root, dirs, files in os.walk(ROVER_DIR / "docs"):
+        for file in files:
+            p = Path(root) / file
+            rel = p.relative_to(ROVER_DIR)
+            zf.write(p, arcname=str(rel))
+
     # Add jak2_adk package
     for root, dirs, files in os.walk(ROVER_DIR / "jak2_adk"):
         for file in files:

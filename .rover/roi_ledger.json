@@ -1,0 +1,57 @@
+{
+  "project": "Research_Rover_JAK2",
+  "currency": "USD",
+  "blended_hourly_rate": 80.0,
+  "summary": {
+    "total_manual_benchmark_hours": 38.0,
+    "total_rover_execution_hours": 1.25,
+    "net_hours_saved": 36.75,
+    "total_dollars_saved": 2940.0
+  },
+  "entries": [
+    {
+      "id": "roi-001",
+      "timestamp": "2026-10-23T22:40:00Z",
+      "category": "Architecture & Multi-Agent Orchestration",
+      "task": "Design, implement, and unit-test Google ADK SequentialAgent pipeline with 4 specialized domain agents and deterministic biophysical tools",
+      "manual_benchmark_hours": 16.0,
+      "rover_hours": 0.5,
+      "net_hours_saved": 15.5,
+      "dollars_saved": 1240.0,
+      "xp_awarded": 1000
+    },
+    {
+      "id": "roi-002",
+      "timestamp": "2026-10-23T22:50:00Z",
+      "category": "Visual Analytics & Executive Portals",
+      "task": "Render 4 high-resolution 200 DPI executive charts (Radar, Sweetspot Quadrant, Selectivity Log Bar, Funnel) and interactive Generative UI dashboard",
+      "manual_benchmark_hours": 10.0,
+      "rover_hours": 0.35,
+      "net_hours_saved": 9.65,
+      "dollars_saved": 772.0,
+      "xp_awarded": 400
+    },
+    {
+      "id": "roi-003",
+      "timestamp": "2026-10-23T23:00:00Z",
+      "category": "Deployment & Packaging",
+      "task": "Build zero-dependency standalone base64 executive HTML file and portable ZIP distribution pack",
+      "manual_benchmark_hours": 4.0,
+      "rover_hours": 0.15,
+      "net_hours_saved": 3.85,
+      "dollars_saved": 308.0,
+      "xp_awarded": 300
+    },
+    {
+      "id": "roi-004",
+      "timestamp": "2026-10-23T23:10:00Z",
+      "category": "Technical Documentation",
+      "task": "Author complete enterprise documentation suite (README, IT Deployment Guide, Research Associate Guide, Biophysical Architecture)",
+      "manual_benchmark_hours": 8.0,
+      "rover_hours": 0.25,
+      "net_hours_saved": 7.75,
+      "dollars_saved": 620.0,
+      "xp_awarded": 350
+    }
+  ]
+}

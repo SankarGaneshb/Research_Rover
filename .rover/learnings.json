@@ -1,0 +1,23 @@
+[
+  {
+    "id": "learn-001",
+    "timestamp": 1729725400000,
+    "topic": "PowerShell Unicode Encoding on Windows",
+    "insight": "Reconfigure sys.stdout to utf-8 when running on Windows terminal to prevent charmap cp1252 exceptions on extended symbols and emoji characters.",
+    "applied_fix": "Added sys.stdout.reconfigure(encoding='utf-8') in jak2_adk/cli.py and used clean badge representations."
+  },
+  {
+    "id": "learn-002",
+    "timestamp": 1729725500000,
+    "topic": "Zero-Dependency Executive Portability",
+    "insight": "Senior management and external colleagues frequently cannot run Python or access CDN assets behind corporate firewalls. Base64-inlining of high-res charts inside a single HTML file guarantees 100% portable visualization on any device.",
+    "applied_fix": "Implemented package_share.py generating Executive_JAK2_Report.html with inlined data URIs."
+  },
+  {
+    "id": "learn-003",
+    "timestamp": 1729725600000,
+    "topic": "Google ADK Multi-Agent Orchestration",
+    "insight": "Combining deterministic biophysical calculators with specialized Google ADK agents achieves mathematically exact metrics while retaining flexible conversational and reasoning explanations.",
+    "applied_fix": "Structured tools under jak2_adk/tools/ and agents under jak2_adk/agents/ with SequentialAgent coordinator."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "tool": "Rover-Slim",
+  "project": "Research_Rover_JAK2",
+  "blended_developer_rate_usd": 80.0,
+  "telemetry_mode": "local",
+  "auto_learnings": true
+}
